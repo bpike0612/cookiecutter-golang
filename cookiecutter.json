@@ -1,0 +1,17 @@
+{
+    "full_name": "Brett Pike",
+    "github_username": "bpike0612",
+    "app_name": "mygolangproject",
+    "project_short_description": "A Golang project.",
+    "docker_hub_username": "bpike0612",
+    "docker_image": "bpike0612/alpine-base-image:latest",
+    "docker_build_image": "bpike0612/alpine-golang-buildimage",
+    "docker_build_image_version": ["1.13", "1.12.9", "1.11.9"],
+    "go_mod_or_dep": ["mod", "dep"],
+    "use_docker": "y",
+    "use_git": "y",
+    "use_logrus_logging": "y",
+    "use_viper_config": "y",
+    "use_cobra_cmd": "y",
+    "use_ci": ["travis", "circle", "none"]
+}
